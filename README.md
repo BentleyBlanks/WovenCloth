@@ -2,7 +2,7 @@
 基于[SIGGRAPH2014 Yarn-Level Woven Cloth](http://dl.acm.org/citation.cfm?doid=2661229.2661279)完成了基本的纺线针织布料模拟。视频结果由Mitsuba渲染器光线跟踪完成。
 
 #截图
-[!screenshot](https://github.com/BentleyBlanks/WovenCloth/blob/master/screenshot/1.png)
+[!screenshot](https://raw.githubusercontent.com/BentleyBlanks/WovenCloth/master/screenshot/1.png)
 
 #构建说明
 1.算法部分由OpenFramework+Eigen完成
@@ -14,7 +14,7 @@
 
 2.本布料模拟支持弯曲，剪切，拉伸等基本纺线属性
 
-3.世纪程序中只使用了半径为30的纺线，总长宽高为20*20。过多纺线目前会因误差原因导致程序直接出现不稳定。
+3.实际程序中只使用了半径为30的纺线，总长宽高为20*20。过多纺线目前会因误差原因导致程序直接出现不稳定。
 
 4.OpenFrameworks程序支持离线渲染和实时渲染，离线渲染支持将结果全部导出成obj，实时渲染效率较低。只需要更改顶部的```宏的搭配```即可。
 ```cpp
