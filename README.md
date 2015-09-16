@@ -2,8 +2,8 @@
 基于[SIGGRAPH2014 Yarn-Level Woven Cloth](http://dl.acm.org/citation.cfm?doid=2661229.2661279)完成了基本的纺线针织布料模拟。视频结果由Mitsuba渲染器光线跟踪完成。
 
 #截图
-[!screenshot](https://raw.githubusercontent.com/BentleyBlanks/WovenCloth/master/screenshot/1.png)
- 
+[!screenshot](https://github.com/BentleyBlanks/WovenCloth/blob/master/screenshot/1.png)
+
 #构建说明
 1.算法部分由OpenFramework+Eigen完成
 
