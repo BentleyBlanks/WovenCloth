@@ -1,5 +1,5 @@
 # WovenCloth(Deprecated)
-基于[SIGGRAPH2014 Yarn-Level Woven Cloth](http://dl.acm.org/citation.cfm?doid=2661229.2661279)完成了基本的纺线针织布料模拟。视频结果由Mitsuba渲染器光线跟踪完成。(程序较为不稳定，只实现了其原论文50%的效果并不建议作为参考。但已向作者寻求问题求解，希望我能够理解并及时更新。)
+基于[SIGGRAPH2014 Yarn-Level Woven Cloth](http://dl.acm.org/citation.cfm?doid=2661229.2661279)完成了基本的纺线针织布料模拟。视频结果由Mitsuba渲染器光线跟踪完成。(程序较为不稳定，只实现了其原论文50%的效果并不建议作为参考。)
 
 ## 截图
 ![screenshot](https://github.com/BentleyBlanks/WovenCloth/blob/master/screenshot/1.png)
@@ -29,6 +29,8 @@
 //#define FRICTION 5
 #define OFFLINE_RENDERING 6
 ```
+
+>    有向作者寻求问题求解，希望我能够理解并及时更新。
 
 ## 关于作者
 
