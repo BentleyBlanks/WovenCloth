@@ -1,15 +1,15 @@
-# WovenCloth
-基于[SIGGRAPH2014 Yarn-Level Woven Cloth](http://dl.acm.org/citation.cfm?doid=2661229.2661279)完成了基本的纺线针织布料模拟。视频结果由Mitsuba渲染器光线跟踪完成。
+# WovenCloth(Deprecated)
+基于[SIGGRAPH2014 Yarn-Level Woven Cloth](http://dl.acm.org/citation.cfm?doid=2661229.2661279)完成了基本的纺线针织布料模拟。视频结果由Mitsuba渲染器光线跟踪完成。(程序较为不稳定，只实现了其原论文50%的效果并不建议作为参考。但已向作者寻求问题求解，希望我能够理解并及时更新。)
 
-#截图
+## 截图
 ![screenshot](https://github.com/BentleyBlanks/WovenCloth/blob/master/screenshot/1.png)
 
-#构建说明
+## 构建说明
 1.算法部分由OpenFramework+Eigen完成
 
 2.离线渲染部分由SIGGRAPH常见的Mitsuba完成渲染
 
-#使用说明
+## 使用说明
 1.使用Eigen中精确度最高的jacobiSvd方法完成8*8的线性微分方程组求解
 
 2.本布料模拟支持弯曲，剪切，拉伸等基本纺线属性
@@ -30,10 +30,8 @@
 #define OFFLINE_RENDERING 6
 ```
 
-5.程序较为不稳定，只实现了其原论文50%的效果。已向作者寻求问题求解，希望我能够理解并及时更新。
+## 关于作者
 
-
-##关于作者
 ```cpp
 int 官某某 = "Bingo";
 
